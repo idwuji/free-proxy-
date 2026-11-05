@@ -31,7 +31,7 @@ type Config struct {
 	// and for the one-time upgrade import. SQLite is authoritative afterwards,
 	// and the web console is where they are changed.
 	WebHost             string `env:"WEB_HOST" envDefault:"0.0.0.0"`
-	WebPort             int    `env:"WEB_PORT" envDefault:"39527"`
+	WebPort             int    `env:"WEB_PORT" envDefault:"45354"`
 	AdminUsername       string `env:"ADMIN_USERNAME"`
 	AdminPassword       string `env:"ADMIN_PASSWORD"`
 	AdminSecretPath     string `env:"ADMIN_SECRET_PATH"`
