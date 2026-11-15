@@ -5,7 +5,7 @@ set -eu
 # off to `free-proxy install`, which handles everything else (system
 # dependencies, environment file, init service). Re-run to update.
 
-REPO="${FREE_PROXY_REPO:-masteralanlab/free-proxy}"
+REPO="${FREE_PROXY_REPO:-idwuji/free-proxy-}"
 RELEASE="${FREE_PROXY_RELEASE:-latest}"
 BIN="/usr/local/bin/free-proxy"
 
